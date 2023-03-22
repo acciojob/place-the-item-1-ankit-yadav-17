@@ -1,2 +1,14 @@
-
+.container{
+	display:flex;
+	width:600px;
+	gap:10px;
+	flex-flow:row wrap;
+	justify-content:space-between;
+}
+.inside{
+	background-color:green;
+	width:60px;
+	height:60px;
+	marign:0 3px;
+}
 /* Your CSS Code here. */
